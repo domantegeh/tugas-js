@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    background: #1f242d;
+}
+
+.container {
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+.calculator {
+    width: 320px;
+    height: 520px;
+    background: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.result {
+    height: 120px;
+}
+
+.history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+.output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.keyboard {
+    height: 400px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty {
+    background: #eaedef;
+}
+
+.operator {
+    background: lightgrey;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.number:hover, .operator:hover {
+    background: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.operator:active, .number:active {
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+
+.operator:nth-child(4) {
+    font-size: 20px;
+    background: rgb(160, 178, 238);
+}
+
+.operator:nth-child(8) {
+    font-size: 20px;
+    background: rgb(160, 178, 238);
+}
+
+.operator:nth-child(12) {
+    font-size: 20px;
+    background: rgb(160, 178, 238);
+}
+
+.operator:nth-child(16) {
+    font-size: 20px;
+    background: rgb(160, 178, 238);
+}
+
+.operator:nth-child(20) {
+    font-size: 20px;
+    background: rgb(160, 178, 238);
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: auto;
+}
